@@ -1,5 +1,7 @@
 # Workforce Chart
 
+https://workforce-chart.vercel.app/
+
 Take home assignment for metaZ digital.
 
 A web application that can fetch employee data from an API, and display the result in tabular column. Additionally the web interface also have the capability to sort and search text.
