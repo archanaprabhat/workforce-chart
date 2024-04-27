@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 function Search({ inputSearch, setInputSearch }) {
   function handleSearch(e) {
@@ -12,5 +12,11 @@ function Search({ inputSearch, setInputSearch }) {
         </div>
     );
 }
+
+Search.propTypes = {
+  inputSearch: PropTypes.string.isRequired,
+  setInputSearch: PropTypes.func.isRequired,
+ };
+ 
 
 export default Search;
