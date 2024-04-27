@@ -1,6 +1,7 @@
 import  { useState, useEffect } from "react";
 import { Table } from "antd";
 import PropTypes from 'prop-types';
+import data from '../data.json';
 
 const columns = [
  {
@@ -52,10 +53,11 @@ function TableComponent({ inputSearch }) {
  const [sort, setSort] = useState({ keyToSort: "id", direction: "asc" });
 
  useEffect(() => {
-    fetch("https://harimetaz.pythonanywhere.com/employees")
+  setEmployees(data)
+   /*  fetch("https://harimetaz.pythonanywhere.com/employees")
       .then((response) => response.json())
       .then((data) => setEmployees(data))
-      .catch((error) => console.error("Error fetching data:", error));
+      .catch((error) => console.error("Error fetching data:", error)); */
  }, []);
 
  const filteredEmployees = employees.filter((employee) =>
