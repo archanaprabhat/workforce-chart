@@ -1,8 +1,7 @@
-# React + Vite
+Take home assignment for metaZ digital.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application that can fetch employee data from an API, and display the result in tabular column. Additionally the web interface also have the capability to sort and search text.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Screenshot 2024-04-28 003738](https://github.com/archanaprabhat/workforce-chart/assets/53783585/7c39ca3f-2264-4d29-b3e8-f678f504183c)
+
